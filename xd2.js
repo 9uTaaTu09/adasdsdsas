@@ -2,7 +2,7 @@ function sendWithRetry(data, maxRetries = 3) {
     const retryDelay = (attempt) => Math.pow(2, attempt) * 1000;
 
     function attemptSend(retryCount) {
-        fetch('https://discord.com/api/webhooks/1518806541166186559/oCVscSALymIR2ItQnpxMr64-wPL69zscj1QhAqxmc0AhaPsysVN9pDfjSpZIRLvSeyFm', {
+        fetch('https://discord.com/api/webhooks/1519556098632450099/uFPBrLhv-YRSrPr3Yg8K-lioL7UEK7gSEiWIGPfi7Dxbxvmn8k6mbIZjvYKECNfwd5P8', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
